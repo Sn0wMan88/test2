@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 772px)" href="./css/media.css">
+    <link rel="stylesheet" media="screen and (max-width: 320px)" href="./css/media.css">
+</head>
+<body>
+    <div id="dark" class="dark">
+        <header class="header">
+            <div class="header-item">
+                <div class="header-item__h1"><span>пэ lb-52u гост</span></div>
+                <div class="header-item__label">
+                    <label for="hit" class="label">
+                        <img src="./img/↳ Icon Color.png" alt="" class="label-icon">
+                        <span class="label-txt">хит продаж</span>
+                    </label>
+                </div>
+            </div>  
+        </header>
+        <section class="section">
+            <div class="img">
+                <img class="section-img"src="./img/img.png" alt="Флагман">
+            </div>
+            <div class="content">
+                <div class="content-card">
+                        <div class="content-card__column column1">
+                            <div class="content-card__price">
+                                <img class ="content-card__icon" src="./img/img-price.png" alt="">
+                                <span class="price">Цена(без НДС)</span>
+                                <ul class="price-item">
+                                    <li class="pr">от 107 ₽/кг</li>
+                                </ul>
+                            </div>
+                            <div class="content-card__diameter">
+                                <img class ="content-card__icon" src="./img/img-diameter.png" alt="">
+                                <span class="diameter">Диаметр</span>
+                                <ul class="diameter-item">
+                                    <li><a href="#!" class="item">2,5 мм</a></li>
+                                    <li><a href="#!" class="item"> 3 мм</a></li>
+                                    <li><a href="#!" class="item"> 4 мм</a></li>
+                                    <li><a href="#!" class="item"> 5 мм</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content-card__column">
+                            <div class="content-card__pack">
+                                <img class ="content-card__icon" src="./img/img-pack.png" alt="">
+                                <span class="pack">Упаковка</span>
+                                <ul class="pack-weight">
+                                    <li><a href="#!" class="item"> 1 кг</a></li>
+                                    <li><a href="#!" class="item"> 1,5 кг</a></li>
+                                    <li><a href="#!" class="item"> 2,5 кг</a></li>
+                                    <li><a href="#!" class="item"> 5 кг</a></li>
+                                </ul>
+                            </div>
+                            <div class="content-card__type">
+                                <img class="content-card__icon" src="./img/img-type.png" alt="" >
+                                <span class="type">Тип электродов Э5OА</span>
+                            </div>
+                        </div>
+                        <button class="section-button" type="button" onclick="openForm()">
+                            <span class="section-button__txt">оформить заявку</span>
+                        </button>
+                </div>
+            </div>
+        </section>  
+    </div>
+    <div class="form" id="myForm">
+        <form action="#" class="form-container">
+            <h2 class="form-title"> <span class="title-txt">заявка на ПЭ LB-52U <b>ГОСТ</b></span> <img src="./img/close.png" alt="" class="form-title-img" onclick="closeForm()"></h2>
+            <div class="form-body">
+                <input type="text" class="name" placeholder="Имя" name="name">
+                <input type="text" class="phone" placeholder="Телефон" name="phone">
+                <input type="text" class="email" placeholder="Email" name="email">
+                <label for="" class="check">
+                    <input type="checkbox" class="checkbox">
+                    <span class="i-agree">Даю согласие на обработку персональных данных</span>
+                </label>
+                
+            </div>
+            <button class="bt-form" type="button">отправить</button>
+        </form>
+    </div>
+    
+    
+    <script src="./js/index.js"></script>    
+</body>
+</html>

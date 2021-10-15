@@ -1,0 +1,260 @@
+
+            /* Tablet */
+@media screen and (max-width: 772px) {
+    body {
+        width: 772px;
+        height: 383px;
+    }
+/* Шапка */
+    .header {
+        padding: 86px 1069px 30px 28px;
+        height: 26px;
+    }
+
+    .header-item__h1 {
+        width: 188px;
+        height: 33px;
+        font-size: 22px;
+        margin-right: 18px;
+    }
+
+
+/* Лейбл "Хит продаж */
+    .header-item__label {
+        margin-top: 2px;
+    }
+
+    .label-txt{
+        top: 4.5px;
+        letter-spacing: 0.7px;
+    }
+
+/* Основная секция */
+    .section {
+        background-size: cover;
+        height: 383px;
+    }
+
+    .img{
+        overflow-x: hidden;
+    }
+    .section-img {
+        width: 560px;
+        height: 220px;
+        margin: 199px 0 0 400px;
+    }
+
+/* Основной контент секции */
+    .content {
+        position: absolute;
+        top: 175px;
+        left: 26px;
+        width: 645px;
+        height: 178px;
+    }
+/* Карточки */
+    .content-card__column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+   }
+
+   .column1 {
+       margin-right: 74px;
+   }
+
+    .content-card__type {
+        margin: 0;
+    }
+
+    .content-card__price, .content-card__diameter, .content-card__pack, .content-card__type {
+        margin: 0 30px 19px 0; 
+   }
+
+/* Заголовки карточек */
+    .price, .diameter, .pack, .type{
+        font-size: 16px;
+    }
+
+/* Списки карточек */
+    .price-item, .diameter-item, .pack-weight{
+        margin-top: 21px;
+    }
+/* Кнопка "Отправить заявку" */
+    .section-button {
+        margin: 138px 0 0 3px;
+        letter-spacing: 0.7px;
+        width: 211px;
+    }
+
+            /* Form-Tablet */
+    .form {
+        position: fixed;
+        top: 40px;
+        left: 169px;
+        height: 432px;
+    }
+
+    .form-title {
+        height: 80px;
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+
+    .form-title-img {
+        margin: 13px 0 0 58px
+   }
+    .title-txt {
+        text-transform: uppercase;
+        padding-top: 7px;
+        margin: 31px 24px 20px 30px;
+        letter-spacing: -0.7px;
+   }
+
+   .name, .phone, .email {
+    margin: 16px 0 0 30px;
+    padding-left: 13px;
+   }
+
+   .check {
+       float: left;
+   }
+   .bt-form {
+    letter-spacing: 0.5px;
+   }
+}
+
+            /* Mobile */
+@media screen and (max-width: 320px) {
+    body {
+        width: 320px;
+        height: 737px;
+    }
+/* Шапка */
+    .header {
+        padding: 80px 115px 67px 20px;
+        width: 320px;
+        
+    }
+    .header-item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+   }
+
+   .header-item__h1 {
+        width: 188px;
+        height: 33px;
+        font-size: 22px;
+        margin-bottom: 10px;
+   }
+/* Лейбл "Хит продаж */
+   .label-txt {
+    position: relative;
+    top: 1px
+   }
+
+/* Основная секция */   
+    .section {
+        background-image: url(../img/bg-mobile.png);
+        width: 320px;
+        height: 566px;
+    }
+
+    .section-img {
+        width: 280px;
+        height: 110px;
+        margin: 20px 20px 436px 20px;  
+    }
+/* Кнопка "Отправить заявку" */
+    .section-button {
+        margin: 215px 0 0 0;
+        letter-spacing: 0.05em;
+        width: 280px;
+    }
+/* Основной контент секции */
+    .content {
+        width: 270px;
+        height: 306px;
+        box-sizing: border-box;
+        position: absolute;
+        top: 321px;
+        left: 20px;
+    }
+/* Карточки */
+    .content-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-card__type {
+        margin-left: 0;
+        position: relative;
+        left: 0;
+    }
+
+    .content-card__price, .content-card__diameter, .content-card__pack {
+        margin-bottom: 10px; 
+   }
+    
+/* Заголовки карточек */
+    .price, .diameter, .pack, .type{
+        margin-top: 5px;
+    }
+
+            /* Form-mobile */
+    .form {
+        position: fixed;
+        top: 15px;
+        left: 20px;
+        width: 280px;
+        height: 465px;
+    }
+
+    .form-title {
+        width: 280px;
+        height: 110px;
+        font-size: 19.97px;
+        margin-bottom: 30px;
+    }
+
+    .form-title-img {
+        position: absolute;
+        left: 195px;
+        margin: 10px 0 0 58px;
+    }
+    .title-txt {
+        text-transform: uppercase;
+        padding-top: 3px;
+        margin: 32px 15px 15px 15px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+    }
+
+    .name, .phone, .email {
+        width: 233px;
+     margin: 0 0 16px 16px;
+    }
+
+    .check {
+        margin: 0;
+        height: 22px;
+        float: left;
+    }
+    .checkbox {
+        margin-left: 18px;
+    }
+
+    .i-agree {
+        font-size: 12px;
+        line-height: 16px
+    }
+
+    .bt-form {
+        width: 250px;
+        margin: 21px 0 0 15px;
+        letter-spacing: 0.043em;
+    }
+
+}
